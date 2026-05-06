@@ -1,0 +1,7 @@
+.env
+node_modules/
+processed.json
+processed_reverse.json
+test-mint.js
+catchup-reverse.js
+*.log

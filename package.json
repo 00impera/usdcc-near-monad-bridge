@@ -1,0 +1,12 @@
+{
+  "name": "usdcc-bridge-relayer",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node -r dotenv/config relayer.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ethers": "^6.0.0",
+    "near-api-js": "^2.1.4"
+  }
+}

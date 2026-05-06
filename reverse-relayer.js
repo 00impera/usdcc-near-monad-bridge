@@ -82,3 +82,7 @@ async function main() {
   }
 }
 main();
+
+// Keepalive HTTP server for Render
+const http = require("http");
+http.createServer((req, res) => res.end("USDCC Reverse Relayer Running")).listen(process.env.PORT || 3001);
